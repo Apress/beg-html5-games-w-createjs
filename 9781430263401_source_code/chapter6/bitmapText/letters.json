@@ -1,0 +1,33 @@
+{
+"images": ["letters.png"],
+"frames": [
+
+    [2, 2, 34, 41], 
+    [34, 176, 22, 43], 
+    [36, 45, 26, 41], 
+    [34, 88, 24, 41], 
+    [2, 45, 32, 41], 
+    [34, 131, 22, 43], 
+    [2, 174, 30, 41], 
+    [38, 2, 24, 41], 
+    [2, 131, 30, 41], 
+    [2, 88, 30, 41]
+],
+"animations": {
+    
+        "l0001":[0], 
+        "l0002":[1], 
+        "l0003":[2], 
+        "l0004":[3], 
+        "l0005":[4], 
+        "l0006":[5], 
+        "l0007":[6], 
+        "l0008":[7], 
+        "l0009":[8], 
+        "l0010":[9]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:30a491e7ec1f55acfc7681f12d743fa2:1/1$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

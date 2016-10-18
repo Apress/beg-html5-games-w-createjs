@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="margin: 20px">
+
+<canvas id="canvas" width="700" height="400" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext("2d");
+
+    var butterfly = new Image();
+    butterfly.src = "images/butterfly.png";
+    butterfly.onload = drawButterflies;
+
+    function drawButterflies() {
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 0, 0, 200, 138);
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 200, 0, 200, 138);
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 400, 0, 200, 138);
+        setTimeout(moveButterfly,1000);
+    }
+    function moveButterfly(){
+        ctx.clearRect(0,0, c.width,c.height);
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 0, 0, 200, 138);
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 200, 200, 200, 138);
+        ctx.drawImage(butterfly, 0, 0, 200, 138, 400, 0, 200, 138);
+    }
+
+
+</script>
+
+</html>

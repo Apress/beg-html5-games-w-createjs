@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="Preloader.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="600" height="400" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage, preloader;
+
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", stage);
+        addPreloader();
+    }
+
+    function addPreloader() {
+        preloader = new ui.Preloader('#34FABC', '#000');
+        preloader.x = (stage.canvas.width / 2) - (preloader.width / 2);
+        preloader.y = (stage.canvas.height / 2) - (preloader.height / 2);
+        stage.addChild(preloader);
+        preloader.update(.6);
+    }
+</script>
+</html>

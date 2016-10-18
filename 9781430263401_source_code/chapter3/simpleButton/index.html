@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="1000" height="800" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init(){
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+
+    function start(){
+        var txt = new createjs.Text("Play Game");
+        var btn = new createjs.Shape();
+        btn.graphics.beginStroke("#000");
+        btn.graphics.beginFill("#CCC");
+        btn.graphics.drawRect(0,0,120,40);
+        stage.addChild(btn);
+        txt.textAlign = 'center';
+        txt.textBaseline = 'middle';
+        txt.x = 60;
+        txt.y = 20;
+        stage.addChild(txt);
+    }
+
+    function handleTick(e){
+        stage.update();
+    }
+</script>
+</html>

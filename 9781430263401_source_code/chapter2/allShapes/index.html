@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/tweenjs-0.5.1.min.js"></script>
+</head>
+
+<body onload="init()" style="margin: 20px">
+
+<canvas id="canvas" width="800" height="600" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+
+    function start() {
+        //RECTANGLE
+        var rectangle = new createjs.Shape();
+        rectangle.graphics.beginStroke('#000');
+        rectangle.graphics.beginFill('#FF0000');
+        rectangle.graphics.drawRect(0, 0, 150, 100);
+        rectangle.x = rectangle.y = 20;
+        stage.addChild(rectangle);
+
+        ///CIRCLE
+        var circle = new createjs.Shape();
+        circle.graphics.beginStroke('#000');
+        circle.graphics.beginFill('#FFF000');
+        circle.graphics.drawCircle(0, 0, 50);
+        circle.x = 250;
+        circle.y = 70;
+        stage.addChild(circle);
+
+        //STAR
+        var poly = new createjs.Shape();
+        poly.graphics.beginStroke('#000');
+        poly.graphics.beginFill('#90ABC2');
+        poly.graphics.drawPolyStar(0, 0, 60, 6, 0.6);
+        poly.x = 400;
+        poly.y = 70;
+        stage.addChild(poly);
+
+        //TRIANGLE
+        var tri = new createjs.Shape();
+        tri.graphics.beginStroke('#000');
+        tri.graphics.beginFill('#00FF00');
+        tri.graphics.moveTo(50, 0)
+                .lineTo(0, 100)
+                .lineTo(100, 100)
+                .lineTo(50, 0);
+        tri.x = 20;
+        tri.y = 150;
+        stage.addChild(tri);
+
+        ///ROUNDED RECTANGLE
+        var roundedRectangle = new createjs.Shape();
+        roundedRectangle.graphics.beginStroke('#000');
+        roundedRectangle.graphics.beginFill('#F7D0D1');
+        roundedRectangle.graphics.drawRoundRect(0,0,400,100,10);
+        roundedRectangle.x = roundedRectangle.y = 150;
+        stage.addChild(roundedRectangle);
+
+    }
+
+</script>
+
+</html>

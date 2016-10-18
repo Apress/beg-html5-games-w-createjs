@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="415" height="260" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage, ss;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", stage);
+        drawSprites();
+    }
+    function drawSprites() {
+        var data = {
+            "images":["frankala.png"],
+            "frames":[
+                [2, 2, 903, 331],
+                [826, 409, 59, 51],
+                [356, 335, 117, 150],
+                [588, 335, 117, 133],
+                [707, 335, 117, 124],
+                [2, 335, 118, 170],
+                [239, 335, 115, 152],
+                [122, 335, 115, 142],
+                [475, 335, 111, 146],
+                [826, 335, 75, 72],
+                [142, 479, 16, 25],
+                [122, 482, 18, 22],
+                [160, 482, 18, 19],
+                [907, 242, 127, 238],
+                [907, 2, 127, 238]
+            ],
+            "animations":{
+                "board":[0],
+                "bubble":[1],
+                "chooseCPU1":[2],
+                "chooseCPU2":[3],
+                "chooseCPU3":[4],
+                "cpu1":[5],
+                "cpu2":[6],
+                "cpu3":[7],
+                "frank":[8],
+                "scoreBrick":[9],
+                "stone_0":[10],
+                "stone_1":[11],
+                "stone_2":[12],
+                "stone_3":[13],
+                "window":[14],
+                "windowOn":[15]
+            }
+        };
+        var ss = new createjs.SpriteSheet(data);
+        var frank = new createjs.Sprite(ss,'frank');
+        frank.regY = frank.getBounds().height;
+        var v1 = new createjs.Sprite(ss,'cpu1');
+        v1.regY = v1.getBounds().height;
+        var v2 = new createjs.Sprite(ss,'cpu2');
+        v2.regY = v2.getBounds().height;
+        frank.y = v1.y = v2.y = 200;
+        v1.x = 150;
+        v2.x = 300;
+        stage.addChild(frank, v1, v2);
+    }
+</script>
+</html>

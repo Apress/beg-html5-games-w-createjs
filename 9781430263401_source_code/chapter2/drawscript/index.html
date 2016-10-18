@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()" style="margin: 20px">
+
+<canvas id="canvas" width="300" height="200" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+
+
+    function start() {
+        var g = new createjs.Graphics();
+        g.p("AGaVuIR+AAIAAx+Ix+AAIAAR+").cp().f("rgba(35,64,232,254)").p("AYYS6YAABkhaBQhkAAIsMAAYhkAAhQhQAAhkIAAsWYAAhkBQhQBkAAIMMAAYBkAABaBQAABkIAAMW").cp().ef().f("rgba(255,255,255,254)").p("AOsLuIiMAAIAAhQICMAAIAAAAIAAgoYg8gUgyg8AAhGYAAhaBGhGBQAAYBaAABGBGAABaYAABGgyA8hGAUIAAAoIAAAAICWAAIAABQIiWAAIAAAAIAAG4YAAAADmgUBki0Ig8goIC0hkIAKDSIg8geYAAAAhQDwloAAYloAAhQkOAAAAIg8AeIAei+ICgBQIg8AoYAAAABaDSDwAUIAAm4IAAAA").cp().ef().f("rgba(35,64,232,254)").p("AQuHgYAAAogoAogyAAYgoAAgogoAAgoYAAgyAogeAoAAYAyAAAoAeAAAy").cp().ef();
+        var s = new createjs.Shape(g);
+        stage.addChild(s);
+        stage.update();
+    }
+
+</script>
+
+</html>

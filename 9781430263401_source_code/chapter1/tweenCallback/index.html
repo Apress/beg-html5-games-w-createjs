@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/tweenjs-0.5.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="1000" height="800" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+    function start() {
+        drawButterflies();
+    }
+    function drawButterflies() {
+        var imgPath = 'images/butterfly.png';
+        butterfly = new createjs.Bitmap(imgPath);
+        stage.addChild(butterfly);
+        stage.update();
+        setTimeout(tweenButterfly, 100);
+    }
+    function tweenButterfly() {
+        createjs.Tween.get(butterfly).to({y:100},1000).call(butterflyGone,[butterfly],this);
+    }
+    function butterflyGone(butterfly){
+        stage.removeChild(butterfly);
+    }
+
+
+</script>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="1000" height="800" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+
+
+    function init(){
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    const ARROW_KEY_LEFT = 37;
+    const ARROW_KEY_UP = 38;
+    const ARROW_KEY_RIGHT = 39;
+    const ARROW_KEY_DOWN = 40;
+
+    function start(){
+        window.onkeydown = onDPad;
+    }
+
+    function onDPad(e){
+        switch (e.keyCode){
+            case ARROW_KEY_LEFT:
+                console.log('move left');
+                break;
+            case ARROW_KEY_UP:
+                console.log('move up');
+                break;
+            case ARROW_KEY_RIGHT:
+                console.log('move right');
+                break;
+            case ARROW_KEY_DOWN:
+                console.log('move down');
+                break;
+        }
+    }
+
+    function handleTick(e){
+        stage.update();
+    }
+</script>
+</html>

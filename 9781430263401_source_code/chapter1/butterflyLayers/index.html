@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()" style="margin: 20px">
+
+<canvas id="canvas" width="400" height="200" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+
+
+    ///BOOK EXAMPLE
+    ///MOVE BUTTERFLY WITH EASEL
+    function start() {
+        drawButterflies();
+    }
+    function drawButterflies() {
+        var imgPath = 'images/butterfly.png';
+        butterfly1 = new createjs.Bitmap(imgPath);
+        butterfly2 = new createjs.Bitmap(imgPath);
+        butterfly2.x = 90;
+        butterfly2.y = 40;
+        stage.addChild(butterfly2, butterfly1);
+        stage.update();
+        setTimeout(swapButterfies, 1000);
+    }
+    function swapButterfies() {
+
+    }
+
+
+</script>
+
+</html>

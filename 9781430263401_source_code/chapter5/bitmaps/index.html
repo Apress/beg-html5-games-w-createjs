@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/preloadjs-0.4.1.min.js"></script>
+    <script src="../lib/filters/BoxBlurFilter.js"></script>
+</head>
+
+<body onload="preload()">
+
+<canvas id="canvas" width="500" height="240" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage, queue;
+
+    // onload
+    function preload() {
+        queue = new createjs.LoadQueue();
+        queue.addEventListener("complete", init);
+        queue.loadManifest([
+            {id:"frank", src:"img/frank.png"},
+            {id:"v1", src:"img/villager1.png"},
+            {id:"v2", src:"img/villager2.png"}
+        ]);
+    }
+
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        drawCharacters();
+    }
+
+    function drawCharacters() {
+        var frank = new createjs.Bitmap(queue.getResult('frank'));
+        var villager1 = new createjs.Bitmap(queue.getResult('v1'));
+        var villager2 = new createjs.Bitmap(queue.getResult('v2'));
+        frank.y = villager1.y = villager2.y = 40;
+        frank.x = 20;
+        villager1.x = 190;
+        villager2.x = 360;
+        stage.addChild(frank, villager1, villager2);
+        var w = frank.image.width;
+        var h = frank.image.height;
+        villager1.shadow = new createjs.Shadow('#000', 5, 5, 8);
+        var blur = new createjs.BoxBlurFilter(5, 5, 1);
+        frank.filters = [blur];
+        frank.cache(0, 0, w, h);
+        var color = new createjs.ColorFilter(1, 0, 0, 1, 0, 0, 0, 0);
+        villager2.filters = [color, blur];
+        villager2.cache(0, 0, w + 10, h + 10);
+        stage.update();
+    }
+
+
+    function sample() {
+        var frank = new createjs.Bitmap('img/frank.png');
+        stage.addChild(frank);
+        frank.x = 100;
+        frank.y = 40;
+        frank.alpha = .5;
+        stage.update();
+    }
+    function sample2() {
+        img = new Image();
+        img.addEventListener('load', showFrank);
+        img.src = 'img/frank.png';
+    }
+    function showFrank() {
+        var frank = new createjs.Bitmap(img);
+        stage.addChild(frank);
+        stage.update();
+    }
+
+    function handleTick(e) {
+        stage.update();
+    }
+</script>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.games.fakezee"
+        version="1.0.0">
+
+    <name>Fakezee</name>
+
+    <description>
+        Fakezee is a dice game that is fun for everyone!
+    </description>
+
+    <author href="" email="">
+        Fun Times Games
+    </author>
+
+    <gap:platform name="ios"/>
+    <gap:platform name="android"/>
+
+    <!--IOS-->
+
+    <icon src="icons/apple-touch-icon-57x57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/apple-touch-icon-72x72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icons/apple-touch-icon-114x114.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icons/apple-touch-icon-144x144.png" gap:platform="ios" width="144" height="144" />
+
+    <gap:splash src="splash/apple-touch-startup-image-320x480.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="splash/apple-touch-startup-image-640x960.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="splash/apple-touch-startup-image-640x1136.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="splash/apple-touch-startup-image-1024x748.png" gap:platform="ios" width="1024" height="748" />
+    <gap:splash src="splash/apple-touch-startup-image-768x1004.png" gap:platform="ios" width="768" height="1004" />
+
+    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
+    <gap:splash src="splash/apple-touch-startup-image-2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="splash/apple-touch-startup-image-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+
+
+    <!--ANDROID-->
+    <icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" width="36" height="36"/>
+    <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" width="48" height="48"/>
+    <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" width="72" height="72"/>
+    <icon src="icons/android/xdpi.png" gap:platform="android" gap:density="xhdpi" width="96" height="96"/>
+
+    <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+    <preference name="orientation" value="portrait"/>
+    <preference name="fullscreen" value="true"/>
+
+
+	<access origin="*" />
+
+</widget>

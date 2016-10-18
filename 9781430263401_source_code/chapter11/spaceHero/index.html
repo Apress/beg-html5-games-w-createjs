@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPACE HERE</title>
+
+    <!--CREATEJS-->
+    <script src="js/lib/easeljs-0.7.1.min.js"></script>
+    <script src="js/lib/soundjs-0.5.2.min.js"></script>
+    <script src="js/lib/preloadjs-0.4.1.min.js"></script>
+    <script src="js/lib/tweenjs-0.5.1.min.js"></script>
+    <script src="js/lib/BitmapText.js"></script>
+
+    <!--NDGMR-->
+    <script src="js/lib/ndgmr.Collision.sprite.js"></script>
+
+    <!--GAME CLASSES-->
+    <script src="js/state.js"></script>
+    <script src="js/utils/Utils.js"></script>
+
+    <!--COMPONENTS-->
+    <script src="js/classes/components/Preloader.js"></script>
+    <script src="js/classes/components/SimpleButton.js"></script>
+
+    <!--SCENES-->
+    <script src="js/scenes/GameMenu.js"></script>
+    <script src="js/scenes/Game.js"></script>
+    <script src="js/scenes/GameOver.js"></script>
+
+    <!--MANAGERS-->
+    <script src="js/classes/managers/AssetManager.js"></script>
+    <script src="js/classes/managers/SpritePool.js"></script>
+
+    <!--SPRITES-->
+    <script src="js/classes/sprites/Explosion.js"></script>
+    <script src="js/classes/sprites/HealthMeter.js"></script>
+    <script src="js/classes/sprites/LifeBox.js"></script>
+    <script src="js/classes/sprites/Scoreboard.js"></script>
+    <script src="js/classes/sprites/EnemyShip.js"></script>
+    <script src="js/classes/sprites/HeroShip.js"></script>
+    <script src="js/classes/sprites/Bullet.js"></script>
+
+    <!--APPLICATION-->
+    <script src="js/SpaceHero.js"></script>
+
+</head>
+
+<body onload="init();" style="background-color: black">
+    <img src="img/bg.png" style="position: absolute">
+    <canvas id="canvas" width="600" height="700" style="position: absolute"></canvas>
+</body>
+
+<script>
+    var ARROW_KEY_SPACE = 32;
+    var ARROW_KEY_UP = 38;
+    var ARROW_KEY_DOWN = 40;
+    var ARROW_KEY_LEFT = 37;
+    var ARROW_KEY_RIGHT = 39;
+
+    var stage;
+    var canvas;
+    var spritesheet;
+    var screen_width;
+    var screen_height;
+
+    function init() {
+        window.game = window.game || {};
+        game.main = new game.SpaceHero();
+    }
+
+
+</script>
+
+
+</html>

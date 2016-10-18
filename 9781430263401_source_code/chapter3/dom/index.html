@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/tweenjs-0.5.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<div id="gameHolder">
+
+    <div id="instructions" style="width: 400px;height: 300px;border: dashed 2 #008b8b;text-align: center;visibility: hidden">
+        <h3 style="font-family:arial;">Game Instructions</h3>
+        <p><strong>Click</strong> on the <span style="color:red">RED</span> balloons as they fall from the sky.</p>
+        <p>Make sure you click them <span style="text-decoration: underline">all</span> before time runs out!</p>
+        <p>Rack up <i>as many points</i> as you can to reach the <span style="color:blue">BLUE</span> level.</p>
+        <h2 style="font-weight: bold;margin-top:30px">GOOD LUCK!</h2>
+    </div>
+
+    <canvas id="canvas" width="500" height="400" style="border: black solid 1px"></canvas>
+
+</div>
+
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function start() {
+        var de = new createjs.DOMElement(instructions);
+        de.alpha = 0;
+        de.regX = 200;
+        de.x = stage.canvas.width / 2;
+        de.y = 0;
+        stage.addChild(de);
+        createjs.Tween.get(de).wait(1000).to({y:40, alpha:1}, 2000, createjs.Ease.quadOut);
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+</script>
+
+
+</html>

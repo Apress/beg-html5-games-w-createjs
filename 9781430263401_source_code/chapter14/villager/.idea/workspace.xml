@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b883eca5-2f5f-44b1-a746-671e1ca25bb3" name="Default" comment="" />
+    <ignored path="meynard.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="meynard" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BattleButton.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattleButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="31" selection-start="0" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1245">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/events.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="5" selection-start="0" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BattlePanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattlePanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="46" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2175">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/scenes/Game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="275" column="5" selection-start="8457" selection-end="9157" vertical-scroll-proportion="0.0" vertical-offset="3613" max-vertical-offset="4380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicShop.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/classes/sprites/MagicShop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="28" selection-start="3658" selection-end="3665" vertical-scroll-proportion="0.6366013" vertical-offset="983" max-vertical-offset="2025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="0" selection-end="1895" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelComplete.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/scenes/LevelComplete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/classes/managers/AssetManager.js" />
+        <option value="$PROJECT_DIR$/js/Meynard.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/scenes/LevelSelect.js" />
+        <option value="$PROJECT_DIR$/js/classes/sprites/EnemyHealthBar.js" />
+        <option value="$PROJECT_DIR$/js/device.js" />
+        <option value="$PROJECT_DIR$/assets/spritesheet.json" />
+        <option value="$PROJECT_DIR$/js/Villager.js" />
+        <option value="$PROJECT_DIR$/js/data/data.js" />
+        <option value="$PROJECT_DIR$/js/classes/sprites/Enemy.js" />
+        <option value="$PROJECT_DIR$/js/classes/Hero.js" />
+        <option value="$PROJECT_DIR$/js/scenes/GameMenu.js" />
+        <option value="$PROJECT_DIR$/js/classes/sprites/BattlePanel.js" />
+        <option value="$PROJECT_DIR$/js/classes/sprites/BattleButton.js" />
+        <option value="$PROJECT_DIR$/js/scenes/Game.js" />
+        <option value="$PROJECT_DIR$/js/scenes/LevelComplete.js" />
+        <option value="$PROJECT_DIR$/js/classes/sprites/MagicShop.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1676" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meynard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="/_BR/projects/Standard.VT" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/scenes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b883eca5-2f5f-44b1-a746-671e1ca25bb3" name="Default" comment="" />
+      <created>1387129169930</created>
+      <updated>1387129169930</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15277778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17099698" sideWeight="0.8469163" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattleButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="0" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="0" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattlePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="5" selection-start="8457" selection-end="9157" vertical-scroll-proportion="0.0" vertical-offset="3613" max-vertical-offset="4380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/MagicShop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="28" selection-start="3658" selection-end="3665" vertical-scroll-proportion="0.0" vertical-offset="983" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="0" selection-end="1895" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/LevelComplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattleButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="0" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="0" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattlePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="5" selection-start="8457" selection-end="9157" vertical-scroll-proportion="0.0" vertical-offset="3613" max-vertical-offset="4380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/MagicShop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="2" selection-start="4716" selection-end="4716" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/LevelComplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattleButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/Enemy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="17" selection-start="6046" selection-end="6057" vertical-scroll-proportion="0.0" vertical-offset="2205" max-vertical-offset="2595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spritesheet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="19" selection-start="11722" selection-end="11726" vertical-scroll-proportion="0.0" vertical-offset="1253" max-vertical-offset="7455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/MagicShop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="30" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/Hero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattlePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="265" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="84" selection-start="1039" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spritesheet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="454" column="30" selection-start="13390" selection-end="13390" vertical-scroll-proportion="-10.958333" vertical-offset="6547" max-vertical-offset="7455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Villager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="8" selection-start="2925" selection-end="3243" vertical-scroll-proportion="0.0" vertical-offset="868" max-vertical-offset="2070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/data/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="5" selection-start="4459" selection-end="5237" vertical-scroll-proportion="0.0" vertical-offset="2383" max-vertical-offset="3210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/Enemy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="8" selection-start="6553" selection-end="6608" vertical-scroll-proportion="0.0" vertical-offset="1828" max-vertical-offset="2595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/EnemyHealthBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="0" selection-end="1773" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/Hero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/GameMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="16" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/LevelSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="4" selection-start="0" selection-end="2058" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattlePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/BattleButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="0" selection-end="2309" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="0" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="5" selection-start="8457" selection-end="9157" vertical-scroll-proportion="0.0" vertical-offset="3613" max-vertical-offset="4380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="0" selection-end="1895" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scenes/LevelComplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/sprites/MagicShop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="28" selection-start="3658" selection-end="3665" vertical-scroll-proportion="0.6366013" vertical-offset="983" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

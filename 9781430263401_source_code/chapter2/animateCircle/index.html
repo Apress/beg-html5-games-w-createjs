@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body style="margin: 20px">
+
+<canvas id="canvas" width="800" height="600" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage = new createjs.Stage(document.getElementById('canvas'));
+    var direction = 1;
+    var velocity = 10;
+
+    var circle = new createjs.Shape();
+    circle.graphics.beginStroke('#000');
+    circle.graphics.beginFill('#FFF000');
+    circle.graphics.drawCircle(0, 0, 50);
+    circle.radius = 50;
+    circle.x = 100;
+    circle.y = 300;
+
+    stage.addChild(circle);
+
+    createjs.Ticker.addEventListener("tick", tick);
+    createjs.Ticker.setFPS(60);
+
+    function updateCircle() {
+        var nextX = circle.x + (velocity * direction);
+        if (nextX > stage.canvas.width - circle.radius) {
+            nextX = stage.canvas.width - circle.radius;
+            direction *= -1;
+        }
+        else if (nextX < circle.radius) {
+            nextX = circle.radius;
+            direction *= -1;
+        }
+        circle.nextX = nextX;
+    }
+    function renderCircle() {
+        circle.x = circle.nextX;
+    }
+
+    function tick(e) {
+        updateCircle();
+        renderCircle();
+        stage.update();
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="1000" height="800"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        buildBears();
+        startGame();
+    }
+    function buildBears() {
+        var bear = new createjs.Bitmap('img/bear.png');
+        var bearUnder = new createjs.Bitmap('img/bearUnder.png');
+        var mask = new createjs.Shape(new createjs.Graphics().drawCircle(0, 0, 70));
+        bearUnder.mask = mask;
+        stage.addChild(mask, bear, bearUnder);
+        mask.addEventListener('tick', function (e) {
+            e.currentTarget.x = stage.mouseX;
+            e.currentTarget.y = stage.mouseY;
+        })
+    }
+    function startGame() {
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", function (e) {
+            stage.update();
+        });
+    }
+</script>
+</html>

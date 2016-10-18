@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="400" height="200" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    var circle;
+
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+    function handleTick(e) {
+        stage.update();
+    }
+    function start() {
+        stage.enableMouseOver();
+        circle = new createjs.Shape();
+        circle.graphics.beginFill('#0000FF').drawCircle(0, 0, 50);
+        circle.set({x:stage.canvas.width / 2});
+        circle.x = stage.canvas.width / 2;
+        circle.y = stage.canvas.height / 2;
+        stage.addChild(circle);
+        circle.cursor = 'pointer';
+        circle.addEventListener("mouseover", function (e) {
+            circle.alpha = .5;
+        });
+        circle.addEventListener("mouseout", function (e) {
+            circle.alpha = 1;
+        });
+    }
+</script>
+</html>

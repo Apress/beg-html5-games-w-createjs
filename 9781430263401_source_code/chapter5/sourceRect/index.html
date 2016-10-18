@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="600" height="400" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        sample();
+        startGame();
+    }
+
+    function sample() {
+        var bmp1 = new createjs.Bitmap('img/mam.png');
+        var bmp2 = new createjs.Bitmap('img/mam.png');
+        var rect = new createjs.Rectangle(0, 0, 200, 200);
+        bmp1.sourceRect = rect;
+        rect = new createjs.Rectangle(200, 400, 200, 200);
+        bmp2.sourceRect = rect;
+        bmp1.x = 20;
+        bmp2.x = 240;
+        bmp1.y = bmp2.y = 20;
+        stage.addChild(bmp1, bmp2);
+        stage.update();
+    }
+    function startGame() {
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", function (e) {
+            stage.update();
+        });
+    }
+</script>
+</html>

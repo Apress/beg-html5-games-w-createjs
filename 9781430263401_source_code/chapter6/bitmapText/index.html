@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="../lib/BitmapText.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="400" height="120" style="border: black solid 1px;background-color: #add8e6"></canvas>
+
+</body>
+
+<script>
+    var stage, scoreContainer, scoreTxt;
+    var score = 0;
+    var data = {
+        "images":["letters.png"],
+        "frames":[
+
+            [2, 2, 34, 41],
+            [34, 176, 22, 43],
+            [36, 45, 26, 41],
+            [34, 88, 24, 41],
+            [2, 45, 32, 41],
+            [34, 131, 22, 43],
+            [2, 174, 30, 41],
+            [38, 2, 24, 41],
+            [2, 131, 30, 41],
+            [2, 88, 30, 41]
+        ],
+        "animations":{
+
+            "0":[0],
+            "1":[1],
+            "2":[2],
+            "3":[3],
+            "4":[4],
+            "5":[5],
+            "6":[6],
+            "7":[7],
+            "8":[8],
+            "9":[9]
+        }
+    }
+
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", stage);
+        var img = new Image();
+        img.src = "letters.png";
+        img.onload = function () {
+            addScore();
+        }
+    }
+    function addScore() {
+        scoreContainer = new createjs.Container()
+        scoreContainer.x = scoreContainer.y = 30;
+        spritesheet = new createjs.SpriteSheet(data);
+        scoreTxt = new createjs.BitmapText(score.toString(), spritesheet);
+        scoreContainer.addChild(scoreTxt);
+        scoreContainer.updateText = function (text) {
+            this.removeChildAt(0);
+            scoreTxt = new createjs.BitmapText(text, spritesheet);
+            scoreTxt.letterSpacing = 6;
+            this.addChild(scoreTxt);
+        }
+        stage.addChild(scoreContainer);
+        setInterval(updateScore, 100);
+    }
+    function updateScore() {
+        score += 1;
+        scoreContainer.updateText(score.toString());
+    }
+
+
+</script>
+</html>

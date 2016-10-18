@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="300" height="240" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage, img;
+
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        img = new Image();
+        img.addEventListener('load', drawFrank);
+        img.src = 'img/frank.png';
+    }
+
+    function drawFrank(e) {
+        var frank = new createjs.Bitmap(e.target);
+        stage.addChild(frank);
+        stage.update();
+    }
+
+    function handleTick() {
+        stage.update();
+    }
+</script>
+</html>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63e04146-fcd7-47e2-bd19-c6b16b32e1ab" name="Default" comment="" />
+    <ignored path="code_deploy.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="code_deploy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter5/xray/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10016695" vertical-offset="0" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter13/fakezee/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="41" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/chapter1/butterflyLayers/index.html" />
+        <option value="$PROJECT_DIR$/chapter1/finalDemo/index.html" />
+        <option value="$PROJECT_DIR$/chapter1/moveButterflyEasel/index.html" />
+        <option value="$PROJECT_DIR$/chapter1/tweenCallback/index.html" />
+        <option value="$PROJECT_DIR$/chapter1/tweenCallbackInObject/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/allShapes/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/animateCircle/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/drawscript/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/preloader/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/rotateSquare/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/square/index.html" />
+        <option value="$PROJECT_DIR$/chapter2/stage/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/arrows/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/dom/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/doubleClick/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/dpad/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/drag/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/hangman/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/overAndOut/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/shapeGame/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/simpleButton/index.html" />
+        <option value="$PROJECT_DIR$/chapter3/text/index.html" />
+        <option value="$PROJECT_DIR$/chapter4/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/bitmap/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/bitmaps/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/concentration/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/containers/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/masking/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/puzzle/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/sourceRect/index.html" />
+        <option value="$PROJECT_DIR$/chapter5/xray/index.html" />
+        <option value="$PROJECT_DIR$/chapter6/animatedSprite/index.html" />
+        <option value="$PROJECT_DIR$/chapter6/bitmapText/index.html" />
+        <option value="$PROJECT_DIR$/chapter6/spritesFromFlash/index.html" />
+        <option value="$PROJECT_DIR$/chapter6/sprites/index.html" />
+        <option value="$PROJECT_DIR$/chapter7/fakezee/index.html" />
+        <option value="$PROJECT_DIR$/chapter8/button/index.html" />
+        <option value="$PROJECT_DIR$/chapter8/extendSS/index.html" />
+        <option value="$PROJECT_DIR$/chapter8/grant/index.html" />
+        <option value="$PROJECT_DIR$/chapter8/grant/runningMan.js" />
+        <option value="$PROJECT_DIR$/chapter8/preloader/index.html" />
+        <option value="$PROJECT_DIR$/chapter8/shapes/index.html" />
+        <option value="$PROJECT_DIR$/chapter9/exploadingAsteroids/index.html" />
+        <option value="$PROJECT_DIR$/chapter10/orbDestroyer/index.html" />
+        <option value="$PROJECT_DIR$/chapter12/index.html" />
+        <option value="$PROJECT_DIR$/chapter11/spaceHero/js/scenes/GameMenu.js" />
+        <option value="$PROJECT_DIR$/chapter11/spaceHero/js/classes/managers/AssetManager.js" />
+        <option value="$PROJECT_DIR$/chapter13/fakezee/index.html" />
+        <option value="$PROJECT_DIR$/chapter13/fakezee/js/fakezee.js" />
+        <option value="$PROJECT_DIR$/chapter14/meynard/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1916" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code_deploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63e04146-fcd7-47e2-bd19-c6b16b32e1ab" name="Default" comment="" />
+      <created>1394645497141</created>
+      <updated>1394645497141</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1916" height="1058" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32747933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26414087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter13/fakezee/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="41" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/animateCircle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/drawscript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/preloader/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/rotateSquare/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/square/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/stage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10398614" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/arrows/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/dom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/doubleClick/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/dpad/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/drag/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/hangman/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/overAndOut/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/shapeGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/simpleButton/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/text/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10398614" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12998267" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/bitmap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/bitmaps/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/concentration/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/containers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/masking/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/puzzle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="237" selection-end="237" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/sourceRect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/animatedSprite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="2715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/bitmapText/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/spritesFromFlash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/sprites/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="19" selection-start="2113" selection-end="2113" vertical-scroll-proportion="1.7937608" vertical-offset="0" max-vertical-offset="1185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/fakezee/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.1559792" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/button/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/extendSS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="2655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/grant/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/grant/Runner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="4" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/grant/runningMan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/preloader/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/shapes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10398614" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/exploadingAsteroids/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1559792" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/orbDestroyer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="208" selection-end="208" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="20" selection-start="3607" selection-end="3607" vertical-scroll-proportion="0.41767764" vertical-offset="1274" max-vertical-offset="1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/spaceHero/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/exploadingAsteroids/js/AssetManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1080" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/spaceHero/js/scenes/GameMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="320" selection-end="325" vertical-scroll-proportion="0.107717045" vertical-offset="98" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/spaceHero/js/SpaceHero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="5" selection-end="7" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/spaceHero/js/classes/managers/AssetManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/js/fakezee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/js/fakezee.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter13/fakezee/js/fakezee.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter13/fakezee/js/fakezee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1473" selection-end="1473" vertical-scroll-proportion="1.2781351" vertical-offset="0" max-vertical-offset="7425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter13/fakezee/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="41" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/xray/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10016695" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

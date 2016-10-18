@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="1000" height="600" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init(){
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        maskingExample();
+    }
+    function maskingExample(){
+        var bmp = new createjs.Bitmap('img/mam.png');
+        var circle = new createjs.Shape(new createjs.Graphics().drawCircle(0,0,250));
+        circle.x = 620;
+        circle.y = 300;
+        bmp.mask = circle;
+        stage.addChild(bmp);
+        stage.update();
+    }
+    function handleTick(e){
+        stage.update();
+    }
+</script>
+</html>

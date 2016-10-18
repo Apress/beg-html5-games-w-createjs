@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+    <script src="coins.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="420" height="250" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init() {
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", stage);
+        addCoins();
+    }
+    function addCoins() {
+        var coin = new YellowCoin();
+        var coin2 = new GreenCoin();
+        var coin3 = new PinkCoin();
+        coin.y = coin2.y = coin3.y = 100;
+        coin.x = 100;
+        coin2.x = 200;
+        coin3.x = 300;
+        stage.addChild(coin, coin2, coin3);
+    }
+</script>
+</html>

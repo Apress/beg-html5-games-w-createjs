@@ -1,0 +1,12 @@
+body{
+    background-color: #8b0000;
+    margin: 0;
+}
+#gameWrapper{
+    position: absolute;
+}
+canvas, img{
+    -webkit-transform-origin:0px 0px;
+    transform-orgin: 0 0;
+    position: absolute;
+}

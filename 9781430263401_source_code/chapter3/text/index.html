@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../lib/easeljs-0.7.1.min.js"></script>
+</head>
+
+<body onload="init()">
+
+<canvas id="canvas" width="500" height="300" style="border: black solid 1px"></canvas>
+
+</body>
+
+<script>
+    var stage;
+    function init(){
+        stage = new createjs.Stage(document.getElementById('canvas'));
+        createjs.Ticker.addEventListener("tick", handleTick);
+        createjs.Ticker.setFPS(60);
+        start();
+    }
+
+    function start(){
+        var text = new createjs.Text("Game Over", "20px Arial", "#ff7700");
+        text.textBaseline = "middle";
+        text.textAlign = "center";
+        text.x = stage.canvas.width / 2;
+        text.y = stage.canvas.height / 2;
+        stage.addChild(text);
+    }
+
+    function handleTick(e){
+        stage.update();
+    }
+</script>
+</html>
